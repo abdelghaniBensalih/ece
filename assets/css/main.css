@@ -216,11 +216,12 @@ ul li, ol li {
 }
 
 .btn-common {
-  background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
-  box-shadow: 0 8px 16px rgba(255, 77, 121, 0.25);
+  background-image: linear-gradient(65deg, #d13b2f 0%, #ea6e6e 100%); /* Blend of the main red and a softer red */
+  box-shadow: 0 8px 16px rgba(209, 59, 47, 0.25); /* Using the main red for a subtle shadow effect */
   position: relative;
   z-index: 1;
 }
+
 
 .btn-common:hover {
   color: #fff;
@@ -2159,11 +2160,10 @@ footer {
 #count {
   background: #F6F9F9;
 }
-
 #count .count-wrapper {
-  background-image: linear-gradient(65deg, #7b1e35 0, #c17f8f 100%);
+  background-image: linear-gradient(65deg, #FF4D79 0%, #FF809F 100%); /* Softer gradient for a vibrant appearance */
   border-radius: 4px;
-  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.08); /* Keep a soft shadow for depth */
   margin-bottom: -35px;
   margin-top: -35px;
   padding: 15px 0;
@@ -2173,6 +2173,8 @@ footer {
   display: inline-block;
   width: 100%;
 }
+
+
 
 .time-count div {
   text-align: center;
