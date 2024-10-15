@@ -161,8 +161,8 @@
     <!-- About Section End -->
 
     <!-- Video Section Start -->
-    <div class="ready-to-play">
-      <video id="bgvid" class="stop" loop>
+    <div class="ready-to-play" >
+      <video id="bgvid" class="stop">
         <source src="assets/video/event.webm" type="video/mp4">
       </video>
       <div id="polina" class="video-text">
@@ -173,6 +173,8 @@
         </div>
       </div>
     </div>
+   
+    
     <!-- Video Section End -->
 
     <!-- Information Bar Start -->
@@ -379,7 +381,7 @@
                 <a class="nav-link" id="tuesday-tab" data-toggle="tab" href="#tuesday" role="tab" aria-controls="tuesday">
                   <div class="item-text">
                     <h4>Day 02</h4>
-                    <h5>15 Novembre 2024</h5>
+                    <h5>16 Novembre 2024</h5>
                   </div>
                 </a>
               </li>
@@ -1132,7 +1134,33 @@
       </div>
     </div>
 
+
+    <!-- JS script to Play video in the viewport-->
+    <script>
+      // Select the video element
+      const video = document.getElementById('bgvid');
+    
+      // Create an intersection observer
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          // If the video is in the viewport, play it
+          if (entry.isIntersecting) {
+            video.play();
+          } else {
+            video.pause(); // Optionally pause the video when it's out of view
+          }
+        });
+      });
+    
+      // Observe the video element
+      observer.observe(video);
+    </script>
+    <!-- End JS script toPlay video in the viewport-->
+
+
+    
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
     <script src="assets/js/jquery-min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
