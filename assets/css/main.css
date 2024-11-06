@@ -225,7 +225,7 @@ ul li, ol li {
 
 .btn-common:hover {
   color: #fff;
-  background-image: linear-gradient(65deg, #ff527d 0, #ff85a3 100%);
+  background-image: linear-gradient(65deg, #d13b2f 0%, #ea6e6e 100%);
   box-shadow: 0 8px 16px rgba(255, 77, 121, 0.4);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -304,7 +304,7 @@ a.back-to-top i {
   height: 40px;
   line-height: 40px;
   color: #fff;
-  background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(65deg, #d13b2f 0%, #ea6e6e 100%);
   border-radius: 30px;
   text-align: center;
   transition: all 0.2s ease-in-out;
@@ -610,7 +610,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .top-nav-collapse .navbar-nav .nav-link:hover {
-  color: #ff4a67 !important;
+  color: #e64514 !important;
 }
 
 .top-nav-collapse .navbar-nav li.active a.nav-link {
@@ -619,7 +619,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .navbar-expand-lg .navbar-toggler {
   background: transparent;
-  border: 1px solid #ff4a67;
+  border: 1px solid #f65123;
   background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -935,7 +935,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #event-up .event-item .content a {
-  color: #ff4a67;
+  color: #e9174b;
   margin-top: 10px;
 }
 
@@ -1090,7 +1090,7 @@ h1 {
 }
 
 .counter-section .counter .icon {
-  background-image: linear-gradient(0deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(0deg, #e9174b 0, #FF809F 100%);
   color: #fff;
   text-align: center;
   line-height: 50px;
@@ -1186,7 +1186,7 @@ h1 {
 .schedule .nav-tabs .nav-item .nav-link:hover {
   border-color: transparent;
   position: relative;
-  background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(65deg, #bf2a2a 0, #FF809F 100%);
 }
 
 .schedule .nav-tabs .nav-item.show .nav-link h4, .schedule .nav-tabs .nav-link.active h4,
@@ -1206,7 +1206,7 @@ h1 {
   bottom: -24px;
   border-width: 12px;
   border-style: solid;
-  border-color: #ff4a67 transparent transparent transparent;
+  border-color: #ff4a67  transparent transparent transparent;
 }
 
 .schedule .item-text {
@@ -1243,7 +1243,7 @@ h1 {
 }
 
 .schedule .card .schedule-slot-time {
-  background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+  background-image: linear-gradient(65deg,  #ca344d  0, #f1b4c3 100%);
   color: #fff;
   padding: 38px 28px;
   float: left;
@@ -1659,11 +1659,11 @@ h1 {
 }
 
 .team-item .overlay-social-icon .social-icons li .lni-google-plus:hover {
-  background: #ea4335;
+  background: #3589ea;
 }
 
 .team-item .overlay-social-icon .social-icons li .lni-pinterest {
-  background: rgba(189, 8, 28, 0.7);
+  background: rgba(218, 60, 78, 0.7);
 }
 
 .team-item .overlay-social-icon .social-icons li .lni-pinterest:hover {
@@ -2161,7 +2161,7 @@ footer {
   background: #F6F9F9;
 }
 #count .count-wrapper {
-  background-image: linear-gradient(65deg, #FF4D79 0%, #FF809F 100%); 
+  background-image: linear-gradient(65deg, #bf2a2a 0%, #f3bdbd 100%); 
   border-radius: 4px;
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.08); 
   margin-bottom: -35px;
