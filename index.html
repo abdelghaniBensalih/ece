@@ -153,14 +153,14 @@
     </section>
     <!-- About Section End -->
 
-    <!-- Video Section Start -->
+    <!-- image Section Start -->
     <div class="ready-to-play" >
       <img src="assets/img/about/image.png" alt="" class="w-full h-full object-cover">
     </div>
     
    
     
-    <!-- Video Section End -->
+    <!-- image Section End -->
 
     <!-- Information Bar Start -->
     <section id="information-bar">
@@ -1240,29 +1240,9 @@
     </div>
 
 
-    <!-- JS script to Play video in the viewport-->
-    <script>
-      // Select the video element
-      const video = document.getElementById('bgvid');
+  
     
-      // Create an intersection observer
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          // If the video is in the viewport, play it
-          if (entry.isIntersecting) {
-            video.play();
-          } else {
-            video.pause(); // Optionally pause the video when it's out of view
-          }
-        });
-      });
     
-      // Observe the video element
-      observer.observe(video);
-    </script>
-    <!-- End JS script toPlay video in the viewport-->
-
-
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     
@@ -1276,7 +1256,6 @@
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/wow.js"></script>
     <script src="assets/js/nivo-lightbox.js"></script>
-    <script src="assets/js/video.js"></script>
     <script src="assets/js/main.js"></script>     
   </body>
 </html>

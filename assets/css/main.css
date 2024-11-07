@@ -950,21 +950,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 /* ==========================================================================
    Video Section Style
    ========================================================================== */
-/* .ready-to-play {
-  height: 700px;
-  width: auto;
-  overflow: hidden;
-  position: relative;
-}
-  */
 
-  .ready-to-play {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    z-index: 2;
-    height: 500px; 
-  }
   
   @media (min-width: 768px) {
     .ready-to-play {
@@ -994,24 +980,6 @@ a.back-to-top:hover, a.back-to-top:focus {
   }
   
   
-
-
-
-video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  background-size: cover;
-  transition: 1s opacity;
-}
 
 .stop {
   opacity: 1;
@@ -1190,7 +1158,7 @@ h1 {
 }
 
 .schedule .nav-tabs .nav-item {
-  margin-bottom: 16px;
+  margin-bottom: 160px;
   text-align: center;
   margin: 0 10px;
   display: inline-block;
@@ -1244,7 +1212,7 @@ h1 {
   font-size: 15px;
   color: #2f323c;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 100;
   text-transform: uppercase;
 }
 
