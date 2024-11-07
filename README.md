@@ -24,5 +24,5 @@ As a Computer Science student at **ENSA Marrakech**, I was responsible for desig
 
 For any inquiries regarding the website or event, feel free to reach out to me at:
 
-- **Email**: abdelghaniben40@gmail.com
+- **Email**: <abdelghaniben40@gmail.com>
 - **LinkedIn**: [Abdelghani Bensalih](https://www.linkedin.com/in/abdelghani-bensalih-469155219/)
