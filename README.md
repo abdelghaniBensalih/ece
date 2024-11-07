@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Career Expo Event Website - Developed by Abdelghani Bensalih
 
-## Getting Started
+**Developer**: Abdelghani Bensalih  
+**Affiliation**: Computer Science Student, ENSA Marrakech
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Welcome to the **Career Expo Event Website**, created to provide information about the upcoming Career Expo event for **students at ENSA Marrakech**. This platform serves as a hub for event details, schedule, participating companies, workshops, and resources to help students explore career opportunities and internships in the tech industry.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Role
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+As a Computer Science student at **ENSA Marrakech**, I was responsible for designing, developing, and maintaining the website for this important event. My goal was to create a seamless and user-friendly experience for students to access all the necessary information related to the event.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
 
-## Learn More
+- **Event Details**: Information about the event, including the date, time, venue, and agenda.
+- **Company Listings**: A directory of participating companies and the career opportunities they offer.
+- **Workshops & Sessions**: An overview of the various workshops, panel discussions, and networking sessions available at the event.
+- **Registration Portal**: Easy registration for students to participate in the event.
+- **Real-Time Updates**: Notifications and updates regarding any changes to the event schedule or other important announcements.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact Information
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+For any inquiries regarding the website or event, feel free to reach out to me at:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Email**: abdelghaniben40@gmail.com
+- **LinkedIn**: [Abdelghani Bensalih](https://www.linkedin.com/in/abdelghani-bensalih-469155219/)

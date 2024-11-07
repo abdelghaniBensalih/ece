@@ -949,7 +949,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 /* ==========================================================================
    Video Section Style
-   ========================================================================== */
+   ========================================================================== 
+*/
 
   
   @media (min-width: 768px) {
@@ -981,13 +982,6 @@ a.back-to-top:hover, a.back-to-top:focus {
   
   
 
-.stop {
-  opacity: 1;
-}
-
-.stopfade .ready-to-play:before {
-  opacity: 1;
-}
 
 h1 {
   font-size: 3rem;
@@ -996,35 +990,8 @@ h1 {
   letter-spacing: .3rem;
 }
 
-.video-text {
-  background-size: cover;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 999;
-  color: #fff;
-}
 
-.video-text {
-  text-align: center;
-}
 
-.video-text h4 {
-  margin-bottom: 15px;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.video-text h1 {
-  margin-bottom: 25px;
-  color: #fff;
-}
-
-.video-text p {
-  color: #fff;
-}
 
 .tb-t {
   display: table;
