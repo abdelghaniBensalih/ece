@@ -951,9 +951,6 @@ a.back-to-top:hover, a.back-to-top:focus {
    Video Section Style
    ========================================================================== 
 */
-
-  
- 
   
   .ready-to-play {
     width: 100%;
@@ -975,8 +972,6 @@ a.back-to-top:hover, a.back-to-top:focus {
     object-fit: cover;
   }
   
-  
-
 
 h1 {
   font-size: 3rem;
@@ -984,8 +979,6 @@ h1 {
   margin-top: 0;
   letter-spacing: .3rem;
 }
-
-
 
 
 .tb-t {
