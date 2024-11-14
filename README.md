@@ -1,4 +1,4 @@
-# Career Expo Event Website - Developed by Abdelghani Bensalih
+# Career Expo Event Website 
 
 **Developer**: Abdelghani Bensalih  
 **Affiliation**: Computer Science Student, ENSA Marrakech
